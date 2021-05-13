@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <script src="scripts/hidden.js"> </script>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Смотрите, все что хотелось сделал. Изначально не правильный макет, он по идее расчитан на адаптив, что на мобильной версии, что на десктопной должен быть один контент, одни фото, да и на макете для мобилок 2 фрейма, на десктопе 3, уже не верно (это же не две разных страницы?). Да и суть не в этом, скопировать не долго куски кода и вставить. В принципе всё сделано, некоторые моменты которые откровенно не правильно отрисованны я поправил. Адаптив сделал для мобилок 320px и десктоп 1070px как на макете, промежуточные разрешения не делал, суть не в них, все видно как из мобайл в десктоп переходит на 1070px. Если хотите проверить меня, сделаю конечно. Верстал с использованием flexbox, GULP, SASS, шаблонизатор PUG. Про себя, 33 года, начинающий веб-разработчик, есть один готовый коммерческий проект натянутый на WordPress и WooCommerce. Если вёрстка устроит то выполню второе задание, ну там просто так-то) Спасибо за внимание.</h1>
+    <div class="container main"> 
+      <section class="frame-1">
+        <div class="frame-1-top"><img class="frame-img frame-1-img" src="img/sankt-peterburg-piter-st-3495.svg" alt="spb-1"/>
+          <div class="lable new"> 
+            <div class="lable-text"> 
+              <p>НОВИНКА</p>
+            </div>
+          </div>
+        </div>
+        <div class="frame-1-bottom">
+          <div class="excursion-time"><img class="excursion-time-img" src="img/clock.svg" alt="clock"/>
+            <div class="excursion-time-text">
+              <p>2 часа</p>
+            </div>
+          </div>
+          <h2 class="excursion-name">  АКЦИЯ - Обзорная экскурсия по рекам и каналам  с остановками Hop on Hop Off 2019</h2>
+          <ul class="excursion-description">
+            <li class="excursion-description-text">  Билет на целый день</li>
+            <li class="excursion-description-text">  Неограниченное число катаний</li>
+            <li class="excursion-description-text">  6 остановок у главных достопримечательностей</li>
+            <li class="excursion-start-time-and-text-wrap">
+              <div class="excursion-description-text">Ближайший рейс сегодня</div>
+              <div class="excursion-start-time-wrap">
+                <div class="excursion-start-time">
+                  <p>12:00</p>
+                </div>
+                <div class="excursion-start-time">
+                  <p>12:00</p>
+                </div>
+                <div class="excursion-start-time">
+                  <p>12:00</p>
+                </div>
+                <div class="excursion-start-time">
+                  <p>12:00</p>
+                </div>
+                <div class="excursion-start-time hidden-1">
+                  <p>12:00</p>
+                </div>
+                <div class="excursion-start-time hidden-2">
+                  <p>12:00</p>
+                </div>
+                <div class="excursion-start-time hidden-3">
+                  <p>12:00</p>
+                </div>
+                <div class="excursion-start-time hidden-4">
+                  <p>12:00</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div id="btn1" onclick="readMore()">
+            <p>ещё...</p>
+          </div>
+          <div class="price-and-button-wrap">
+            <div class="price-wrap">
+              <div class="price"> 900 &#8381;</div>
+              <div class="price-alt"> 1200 р на причале</div>
+            </div>
+            <div class="button excursion-details">
+              <div class="button-text">
+                <p>Подробнее</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="frame-1 frame-2">
+        <div class="frame-1-top"><img class="frame-img frame-1-img" src="img/sankt-peterburg-piter-st-3495.svg" alt="spb-1"/>
+          <div class="lable new"> 
+            <div class="lable-text"> 
+              <p>НОВИНКА</p>
+            </div>
+          </div>
+        </div>
+        <div class="frame-1-bottom">
+          <div class="excursion-time"><img class="excursion-time-img" src="img/clock.svg" alt="clock"/>
+            <div class="excursion-time-text">
+              <p>2 часа</p>
+            </div>
+          </div>
+          <h2 class="excursion-name">  АКЦИЯ - Обзорная экскурсия по рекам и каналам  с остановками Hop on Hop Off 2019</h2>
+          <ul class="excursion-description">
+            <li class="excursion-description-text">  Билет на целый день</li>
+            <li class="excursion-description-text">  Неограниченное число катаний</li>
+            <li class="excursion-description-text">  6 остановок у главных достопримечательностей</li>
+            <li class="excursion-start-time-and-text-wrap">
+              <div class="excursion-description-text">Ближайший рейс сегодня</div>
+              <div class="excursion-start-time-wrap">
+                <div class="excursion-start-time">
+                  <p>12:00</p>
+                </div>
+                <div class="excursion-start-time">
+                  <p>12:00</p>
+                </div>
+                <div class="excursion-start-time">
+                  <p>12:00</p>
+                </div>
+                <div class="excursion-start-time">
+                  <p>12:00</p>
+                </div>
+                <div class="excursion-start-time hidden-5">
+                  <p>12:00</p>
+                </div>
+                <div class="excursion-start-time hidden-6"> 
+                  <p>12:00</p>
+                </div>
+                <div class="excursion-start-time hidden-7">
+                  <p>12:00</p>
+                </div>
+                <div class="excursion-start-time hidden-8">
+                  <p>12:00</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div id="btn2" onclick="readMore1()">
+            <p>ещё...</p>
+          </div>
+          <div class="price-and-button-wrap">
+            <div class="price-wrap">
+              <div class="price"> 900 &#8381;</div>
+            </div>
+            <div class="button excursion-details">
+              <div class="button-text">
+                <p>Подробнее</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
